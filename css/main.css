@@ -5,11 +5,11 @@
     list-style: none;
     text-decoration: none;
 }
-label{
-    font-size: 20px;
-    font-weight: bolder;
-    color: pink;
-    font-family: sans-serif;
+.bgheader{
+    background-color: rgb(141, 138, 138);
+}
+figure a img{
+    max-width: 80px;
 }
 
 h1{
@@ -23,8 +23,9 @@ header{
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
-}
+    padding: 20px 0;
 
+}
 nav ul{
     display: flex;
     flex-flow: row;
