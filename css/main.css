@@ -5,18 +5,11 @@
     list-style: none;
     text-decoration: none;
 }
-label{
-    font-size: 32px;
-    font-weight: bolder;
-    color: red;
-    font-family: sans-serif;
-    transition: all .8s;
+.bgheader{
+    background-color: rgb(141, 138, 138);
 }
-label:hover{
-    font-size: 36px;
-    font-weight: bolder;
-    color: darkred;
-    font-family: sans-serif;
+figure a img{
+    max-width: 80px;
 }
 
 h1, h2{
@@ -36,8 +29,9 @@ header{
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
-}
+    padding: 20px 0;
 
+}
 nav ul{
     display: flex;
     flex-flow: row;
