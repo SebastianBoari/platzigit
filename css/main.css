@@ -1,3 +1,15 @@
-*{
-font-size: 48px;
+header{
+    text-align: center;
+    color: blue;
+    background-color: yellow;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+article{
+    font-size: 32px;
+    font-weight: bold;
+    color: yellow;
+    background-color: blueviolet;
+    text-align: center;
 }
