@@ -8,14 +8,14 @@
 label{
     font-size: 32px;
     font-weight: bolder;
-    color: orange;
+    color: red;
     font-family: sans-serif;
     transition: all .8s;
 }
 label:hover{
     font-size: 36px;
     font-weight: bolder;
-    color: orangered;
+    color: darkred;
     font-family: sans-serif;
 }
 
