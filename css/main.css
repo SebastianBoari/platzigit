@@ -62,7 +62,7 @@ main{
     column-gap: 32px;
     row-gap: 32px;
 }
-article{
+main article{
     margin: 0 auto;
     max-width: 1400px;
     padding: 20px;
@@ -72,13 +72,32 @@ article{
     max-width: 400px;
     transition: .3s;
 }
-article:hover{
+main article:hover{
     scale: 1.01;
     background-color: orangered;
 }
-article p, h1{
+main article p, h1{
     color: black;
     font-size: 24px;
     font-weight: 400;
     font-family: sans-serif;
+}
+footer{
+    background-color: rgb(44, 43, 43);
+    
+}
+footer article{
+    margin: 0 auto;
+    max-width: 1400px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 64px;
+}
+footer article p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: cadetblue;
+    padding: 20px;
 }
