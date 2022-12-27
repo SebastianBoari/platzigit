@@ -1,4 +1,4 @@
-![gitygithub](https://i.imgur.com/3HAEz1J.png "gitygithub")
+![](https://i.imgur.com/8R066oh.png)
 
 # Git & GitHub
 
